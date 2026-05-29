@@ -12,7 +12,7 @@ declare global {
 const ASSISTANT_ID = "4914d5c9-e0ad-4593-9d93-eeb34a4e4aee";
 const VAPI_PUBLIC_KEY = "c417c6e6-10ca-4c74-b02c-ba2e19db58a5";
 
-export default function Page(): JSX.Element {
+export default function Page() {
   return (
     <section
       style={{
@@ -62,3 +62,4 @@ export default function Page(): JSX.Element {
     </section>
   );
 }
+
